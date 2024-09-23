@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignPulse: A Telemedicine UI/UX Feedback Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="TeleMedicine Logo">
+        </div>
+        <h1>TeleMedicine</h1>
+        <!-- Profile Picture -->
+        <div class="profile">
+            <img src="myphoto.jpg" alt="Your Name" class="profile-picture">
+            <p>Your Name</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div id="sidebar-content">
+                <h3>Feedback Forms</h3>
+                <p><a href="#general-feedback">General Feedback</a></p>
+                <p><a href="#ux-feedback">UI/UX Feedback</a></p>
+            </div>
+        </aside>
+
+        <!-- Content Section -->
+        <main>
+            <section id="home">
+                <h2>Welcome to TeleMedicine</h2>
+                <p>Your go-to platform for accessible healthcare services from the comfort of your home.</p>
+            </section>
+
+            <section id="services">
+                <h2>Our Services</h2>
+                <p>We provide teleconsultations, remote diagnosis, prescription refills, and more.</p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    
+                    Greetings, I am <strong>Abdulrahman</strong>, a dedicated web developer with a focus on digital health advocacy.
+                    This project, titled <em>DesignPulse: A Telemedicine UI/UX Feedback Portal</em>, represents the culmination of my academic
+                    endeavors to create an intuitive and responsive platform that enhances user experience in healthcare technology.
+                    My expertise  specialize in developing accessible telemedicine solutions that connect patients with healthcare providers seamlessly.
+                    My goal is to leverage technology to improve healthcare access, particularly through innovative platforms
+                    that facilitate communication and care delivery. Through this assignment, I aim to gather valuable feedback to
+                    further refine the design and functionality of telemedicine applications, ensuring they meet the needs of users.
+
+                </p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <h3>General Feedback</h3>
+                <form action="https://formspree.io/f/manwglnd" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Your Thoughts and Feedback:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send Feedback</button>
+                </form>
+
+                <h3>UI/UX Feedback</h3>
+                <form action="https://formspree.io/f/mdknrpkd" method="POST">
+                    <label for="ux-name">Your Name:</label>
+                    <input type="text" id="ux-name" name="name" required>
+                    
+                    <label for="ux-email">Your Email:</label>
+                    <input type="email" id="ux-email" name="email" required>
+                    
+                    <label for="ux-feedback">Your Feedback:</label>
+                    <textarea id="ux-feedback" name="feedback" rows="4" required></textarea>
+                    
+                    <button type="submit">Submit UI/UX Feedback</button>
+                </form>
+
+                <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+                <p>Phone: (123) 456-7890</p>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TeleMedicine. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/yourprofile" target="_blank">https://www.facebook.com/Abdulrahman.Adisa.Amuda2000</a>
+            <a href="https://www.twitter.com/yourprofile" target="_blank">https://x.com/RahmanAdis42469</a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">https://www.linkedin.com/in/abdulrahman--engineering-ai-ml/</a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">https://www.instagram.com/rahman_xbarz/</a>
+        </div>
+    </footer>
+</body>
+</html>
