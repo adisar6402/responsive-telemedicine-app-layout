@@ -1,59 +1,50 @@
-// Toggle Hamburger Menu for Responsive Navigation
-const hamburger = document.getElementById('hamburger');
-const navbar = document.querySelector('.navbar ul');
+// Function to toggle the sidebar
+function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    const content = document.querySelector('.content');
+    const body = document.body;
 
-hamburger.addEventListener('click', () => {
-    navbar.classList.toggle('show');
+    // Check if the sidebar is active
+    if (sidebar.classList.contains('active')) {
+        // If active, remove the class and adjust content margin
+        sidebar.classList.remove('active');
+        body.classList.remove('sidebar-active');
+        content.style.marginLeft = '0'; // Reset content margin
+    } else {
+        // If not active, add the class and adjust content margin
+        sidebar.classList.add('active');
+        body.classList.add('sidebar-active');
+        content.style.marginLeft = '250px'; // Space for the sidebar
+    }
+}
+
+// Event listener for the sidebar toggle button
+document.querySelector('.sidebar-toggle').addEventListener('click', toggleSidebar);
+
+// Optional: Close the sidebar when clicking outside of it
+document.addEventListener('click', function(event) {
+    const sidebar = document.querySelector('.sidebar');
+    const toggleButton = document.querySelector('.sidebar-toggle');
+
+    if (!sidebar.contains(event.target) && !toggleButton.contains(event.target)) {
+        sidebar.classList.remove('active');
+        document.body.classList.remove('sidebar-active');
+        document.querySelector('.content').style.marginLeft = '0'; // Reset content margin
+    }
 });
 
-// Function to dynamically load sidebar content
-function loadSidebarContent() {
-    const sidebarContent = `
-        <h3>Quick Links</h3>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <h3>Recent Posts</h3>
-        <ul>
-            <li><a href="#">Telemedicine and Future of Healthcare</a></li>
-            <li><a href="#">How to Improve UX for Health Apps</a></li>
-            <li><a href="#">AI in Telemedicine: Opportunities and Challenges</a></li>
-        </ul>
-    `;
-    document.getElementById('sidebar-content').innerHTML = sidebarContent;
-}
-
-// Call the function to load sidebar content when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', loadSidebarContent);
-
-// Form Submission Handling with Formspree API Integration
-const contactForm = document.getElementById('contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', async (event) => {
+// Optional: Add functionality for smooth scroll to sections (if applicable)
+const links = document.querySelectorAll('.sidebar ul li a');
+links.forEach(link => {
+    link.addEventListener('click', function(event) {
         event.preventDefault();
-        const formData = new FormData(contactForm);
-        const endpoint = contactForm.action;
-
-        try {
-            const response = await fetch(endpoint, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
             });
-
-            if (response.ok) {
-                alert('Thank you for your feedback!');
-                contactForm.reset(); // Reset the form after successful submission
-            } else {
-                alert('There was an issue submitting your feedback. Please try again.');
-            }
-        } catch (error) {
-            alert('There was an error submitting the form. Please check your connection.');
         }
     });
-}
+});

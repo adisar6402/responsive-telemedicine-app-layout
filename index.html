@@ -1,124 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DesignPulse: A Telemedicine UI/UX Feedback Portal</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DesignPulse - Telemedicine Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="TeleMedicine Logo">
-        </div>
-        <h1>TeleMedicine</h1>
-        <!-- Profile Picture -->
-        <div class="profile">
-            <img src="myphoto.jpg" alt="Your Name" class="profile-picture">
-            <p>Your Name</p>
-        </div>
-    </header>
 
-    <!-- Navigation Bar -->
+<body>
+
+    <!-- Top Navigation Bar -->
     <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
+        <ul class="navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#feedback">Feedback</a></li>
         </ul>
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
     </nav>
 
-    <!-- Main Content Area -->
-    <div class="container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div id="sidebar-content">
-                <h3>Feedback Forms</h3>
-                <p><a href="#general-feedback">General Feedback</a></p>
-                <p><a href="#ux-feedback">UI/UX Feedback</a></p>
+    <!-- Page Content -->
+    <div class="content">
+        <!-- Header -->
+        <header>
+            <div class="header-container">
+                <div class="logo-container">
+                    <img src="logo.png" alt="DesignPulse Logo" class="logo">
+                </div>
+                <h1>Welcome to DesignPulse</h1>
+                <p>Innovative Telemedicine Solutions with a User-Centric Approach</p>
             </div>
-        </aside>
+        </header>
 
-        <!-- Content Section -->
-        <main>
-            <section id="home">
-                <h2>Welcome to TeleMedicine</h2>
-                <p>Your go-to platform for accessible healthcare services from the comfort of your home.</p>
-            </section>
-
-            <section id="services">
-                <h2>Our Services</h2>
-                <p>We provide teleconsultations, remote diagnosis, prescription refills, and more.</p>
-            </section>
-
-            <section id="about">
-                <h2>About Me</h2>
+        <!-- About Me Section -->
+        <section id="about-me">
+            <h2>About Abdulrahman Amuda</h2>
+            <div class="about-content">
+                <img src="myphoto.jpg" alt="Abdulrahman Amuda" class="about-photo">
                 <p>
-                    
-                    Greetings, I am <strong>Abdulrahman</strong>, a dedicated web developer with a focus on digital health advocacy.
-                    This project, titled <em>DesignPulse: A Telemedicine UI/UX Feedback Portal</em>, represents the culmination of my academic
-                    endeavors to create an intuitive and responsive platform that enhances user experience in healthcare technology.
-                    My expertise  specialize in developing accessible telemedicine solutions that connect patients with healthcare providers seamlessly.
-                    My goal is to leverage technology to improve healthcare access, particularly through innovative platforms
-                    that facilitate communication and care delivery. Through this assignment, I aim to gather valuable feedback to
-                    further refine the design and functionality of telemedicine applications, ensuring they meet the needs of users.
-
+                    I am a passionate advocate for digital health transformation, currently developing my skills in web development. I aim to create intuitive UI/UX solutions to improve telemedicine platforms, making healthcare accessible and seamless.
                 </p>
-            </section>
+            </div>
+        </section>
 
-            <section id="contact">
-                <h2>Contact Me</h2>
-                <h3>General Feedback</h3>
-                <form action="https://formspree.io/f/manwglnd" method="POST">
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="message">Your Thoughts and Feedback:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    
-                    <button type="submit">Send Feedback</button>
-                </form>
+        <!-- Introduction Video Section -->
+        <section id="intro-video">
+            <h2>About DesignPulse</h2>
+            <p>Learn more about the DesignPulse initiative aimed at revolutionizing telemedicine with a user-centric design approach.</p>
 
-                <h3>UI/UX Feedback</h3>
-                <form action="https://formspree.io/f/mdknrpkd" method="POST">
-                    <label for="ux-name">Your Name:</label>
-                    <input type="text" id="ux-name" name="name" required>
-                    
-                    <label for="ux-email">Your Email:</label>
-                    <input type="email" id="ux-email" name="email" required>
-                    
-                    <label for="ux-feedback">Your Feedback:</label>
-                    <textarea id="ux-feedback" name="feedback" rows="4" required></textarea>
-                    
-                    <button type="submit">Submit UI/UX Feedback</button>
-                </form>
+            <!-- Embed Video -->
+            <div class="video-container">
+                <video width="100%" controls>
+                    <source src="Narrator_AI_Voice_V1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
 
-                <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-                <p>Phone: (123) 456-7890</p>
-            </section>
-        </main>
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Key Features</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="Teleconsultation Sce.jpg" alt="Teleconsultation" class="service-image">
+                    <h3>Teleconsultation</h3>
+                    <p>A reliable video consultation platform for connecting patients and healthcare providers efficiently.</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="Remote Diagnosis An.jpg" alt="Remote Diagnosis" class="service-image">
+                    <h3>Remote Diagnosis</h3>
+                    <p>Advanced remote diagnostic tools providing patients with the care they need from anywhere.</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="Prescription Refill.jpg" alt="Prescription Refill" class="service-image">
+                    <h3>Prescription Refill</h3>
+                    <p>Request prescription refills digitally for timely access to medications through an intuitive interface.</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="Patient Education A.jpg" alt="Patient Education" class="service-image">
+                    <h3>Patient Education</h3>
+                    <p>Resources to help patients stay informed and empowered in managing their health.</p>
+                </div>
+
+                <div class="service-item">
+                    <img src="Wellness Programs A.jpg" alt="Wellness Programs" class="service-image">
+                    <h3>Wellness Programs</h3>
+                    <p>Comprehensive wellness programs offering personalized coaching for a healthier lifestyle.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feedback Section -->
+        <section id="feedback">
+            <h2>We Value Your Feedback</h2>
+            <div class="feedback-container">
+                <!-- UI/UX Feedback Form -->
+                <div class="feedback-form">
+                    <h3>UI/UX Feedback</h3>
+                    <form action="https://formspree.io/f/mdknrpkd" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="_replyto" required>
+
+                        <label for="feedback">Your Feedback:</label>
+                        <textarea id="feedback" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Submit Feedback</button>
+                    </form>
+                </div>
+
+                <!-- General Feedback Form -->
+                <div class="feedback-form">
+                    <h3>General Feedback</h3>
+                    <form action="https://formspree.io/f/manwglnd" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="_replyto" required>
+
+                        <label for="feedback">Your Feedback:</label>
+                        <textarea id="feedback" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Submit Feedback</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
 
+    <!-- Move the footer outside of the content div -->
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 TeleMedicine. All rights reserved.</p>
-        <div class="social-links">
-            <a href="https://www.facebook.com/yourprofile" target="_blank">https://www.facebook.com/Abdulrahman.Adisa.Amuda2000</a>
-            <a href="https://www.twitter.com/yourprofile" target="_blank">https://x.com/RahmanAdis42469</a>
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">https://www.linkedin.com/in/abdulrahman--engineering-ai-ml/</a>
-            <a href="https://www.instagram.com/yourprofile" target="_blank">https://www.instagram.com/rahman_xbarz/</a>
-        </div>
+        <p>&copy; 2024 DesignPulse. All Rights Reserved.</p>
+        <ul class="social-media">
+            <li>
+                <a href="https://x.com/RahmanAdis42469" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/abdulrahman--engineering-ai-ml/" target="_blank" aria-label="Linkedin">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/rahman_xbarz/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-conditions.html">Terms and Conditions</a></li>
+        </ul>
     </footer>
+    
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+
 </body>
 </html>
