@@ -1,0 +1,420 @@
+    1  which which
+    2  git clone https://github.com/adisar6402/
+    3  cd 
+    4  cd /c/Users/USER/github-classroom/Powerlearnproject
+    5  git add .
+    6  git add .
+    7  ls -a
+    8  ls - a
+    9  ls -a
+   10  git init
+   11  git status
+   12  git add .
+   13  [200~git commit -m "Updated project for submission"
+   14  git commit -m "Updated project for submission"
+   15  git push origin main
+   16  git push origin master
+   17  git remote -v
+   18  git remote -v
+   19  git remote add origin https://github.com/Powerlearnproject/se-day1-assignment-adisar6402.git
+   20  git remote set-url origin https://github.com/Powerlearnproject/se-day1-assignment-adisar6402.git
+   21  git remote -v
+   22  git add .
+   23  git commit -m "Updated project for submission"
+   24  git push -u origin master
+   25  git clone https://github.com/Powerlearnproject/se-day1-assignment-adisar6402.git
+   26  cd se-day1-assignment-adisar6402
+   27  git checkout master
+   28  git clone https://github.com/Powerlearnproject/se-day1-assignment-adisar6402.git
+   29  cd se-day1-assignment-adisar6402
+   30  cd se-day1-assignment-adisar6402
+   31   cd /c/Users/USER/github-classroom/Powerlearnproject
+   32  cd se-day1-assignment-adisar6402
+   33  git status
+   34  git pull origin main
+   35  ls
+   36  git add se-day1-assignment-adisar6402/
+   37  git commit -m "Add se-day1-assignment-adisar6402 directory"
+   38  git push origin main
+   39  git status
+   40    [200~git fetch --all
+   41  git fetch --all
+   42  git fetch --all
+   43  [200~git remote -v
+   44  git remote -v
+   45  git remote -v
+   46  https://github.com/Powerlearnproject/se-day1-assignment-adisar6402.git
+   47  cd /c/Users/USER/github-classroom/Powerlearnproject
+   48  git add README.md
+   49  git status
+   50  git add README.md
+   51  ls
+   52  cd se-day1-assignment-adisar6402/
+   53  git checkout master
+   54  nano .gitignore
+   55  cd ~/github-classroom/Powerlearnproject/se-day1-assignment-adisar6402
+   56  nano README.md
+   57  npm init -y
+   58  cd C:\Users\USER\github-classroom\Powerlearnproject
+   59  cd "C:\Users\USER\github-classroom\Powerlearnproject\se-day1-assignment-adisar6402\.git"
+   60  cd ..
+   61  ls
+   62  cd se-day1-assignment-adisar6402/
+   63  ls
+   64  npm install
+   65  npm test
+   66  git add .
+   67  git commit -m "Finalizing assignment with successful tests"
+   68  git push
+   69  https://github.com/adisar6402/software-engineering-august-2024-cohort-se_day1_assignment-SE_Day1.git
+   70  git clone https://github.com/adisar6402/software-engineering-august-2024-cohort-se_day1_assignment-SE_Day1.git
+   71  cd software-engineering-august-2024-cohort-se_day1_assignment-SE_Day1
+   72  touch README.md
+   73  ls
+   74  nano README.md
+   75  cd ~/software-engineering-august-2024-cohort-se_day1_assignment-SE_Day1
+   76  git add README.md
+   77  git commit -m "Add answers to SE Day1 assignment"
+   78  git push origin main
+   79  cd software-engineering-august-2024-cohort-se_day1_assignment-SE_Day1
+   80  wd
+   81  pwd
+   82  pwd
+   83  ls
+   84  npm init -y
+   85  npm install --save-dev jest
+   86  touch jest.config.js
+   87  nano jest.config.js
+   88  nano package.json
+   89  nano package.json
+   90  git add package.json
+   91  git commit -m "Fix package.json and add Jest test script"
+   92  git push origin main
+   93  git pull origin main
+   94  git push origin main
+   95  npm test
+   96  nano package.json
+   97  git add package.json
+   98  git commit -m "Fix JSON formatting in package.json"
+   99  git push origin main
+  100  npm test
+  101  nano sum.test.js
+  102  nano package.json
+  103  npm test
+  104  git add sum.test.js
+  105  git commit -m "Add a sample Jest test to verify configuration"
+  106  git push origin main
+  107  nano blank.yml
+  108  git add .github/workflows/blank.yml
+  109  git commit -m "Update workflow for autograding and test results"
+  110  git add blank.yml
+  111  git commit -m "Add GitHub Actions workflow for autograding and tests"
+  112  git push origin main
+  113  cd C:\Users\USER\ecommerce-dashboard
+  114  cd /c/Users/USER/ecommerce-dashboard
+  115  pwd
+  116  ls
+  117  node server.js
+  118  nano server.js
+  119  nano server.js
+  120  nano server.js
+  121  ls -l
+  122  rm -r server.js
+  123  touch server.js
+  124  nano server.js
+  125  node -v
+  126  npm -v
+  127  node server.js
+  128  nano .server,js
+  129  nano server.js
+  130  npm update mongoose
+  131  node server.js
+  132  nano model.js
+  133  mkdir models
+  134  nano user,js
+  135  nano user.js
+  136  mkdir models
+  137  cd models
+  138  pwd
+  139  nano user.js
+  140  nano product.js
+  141  nano product.js
+  142  dir
+  143  cd ~/ecommerce-dashboard
+  144  ls
+  145  cd models
+  146  ls
+  147  cd ../src
+  148  ls
+  149  node server.js
+  150  cd ~/ecommerce-dashboard
+  151  node server.js
+  152  mongo
+  153  ./mongo
+  154  cd "/c/Program Files/MongoDB/Server/7.0/bin"
+  155   ./mongo
+  156  cd "C:\Users\USER\ecommerce-dashboard\routes"
+  157  nano recommendations.js
+  158  nano recommendations.js
+  159  cd "C:\Users\USER\ecommerce-dashboard\models"
+  160  pwd
+  161  nano user.js
+  162  cd "C:\Users\USER\ecommerce-dashboard"
+  163  ls
+  164  cd "C:\Users\USER\ecommerce-dashboard\routes"
+  165  nano recommendations.js
+  166  nano recommendations.js
+  167  nano recommendations.js
+  168  nano.recommendations.js
+  169  nano recommendations.js
+  170  nano recommendations.js
+  171  nano recommendations.js
+  172  nano recommendations.js
+  173  nano recommendations.js
+  174  nano recommendations.js
+  175  q
+  176  cd "C:\Users\USER\ecommerce-dashboard"
+  177  cd "C:\Users\USER\ecommerce-dashboard\models"
+  178  nano user.js
+  179  cd "C:\Users\USER\ecommerce-dashboard"
+  180  ls
+  181  cd models
+  182  nano user.js
+  183  cd "C:\Users\USER\ecommerce-dashboard"
+  184  nano recommendtions.js
+  185  nano recommendations.js
+  186  cd "C:\Users\USER\ecommerce-dashboard\routes"
+  187  nano recommendations.js
+  188  nano recommendations.js
+  189  nano recommendations.js
+  190  cd models
+  191  cd "C:\Users\USER\ecommerce-dashboard\models"
+  192  nano products.js
+  193  nano product.js
+  194  nano product.js
+  195  cd C:/Users/USER/ecommerce-dashboard/routes/recommendations.js
+  196  cd C:/Users/USER/ecommerce-dashboard/routes
+  197  nano recommednations.js
+  198  nano recommendations.js
+  199  nano recommendations.js
+  200  nano recommendations.js
+  201  nano recommendations.js
+  202  nano recommendations.js
+  203  mongoexport --db ecommerce --collection products --out products.json --jsonArray
+  204  nano recommendtion.js
+  205  nano recommendation.js
+  206  cd "C:\Users\USER\ecommerce-dashboard\routes"
+  207  pwd
+  208  nano recomendations.js
+  209  nano recommendations.js
+  210  cd "C:\Users\USER\ecommerce-dashboard\models"
+  211  nano product.js
+  212  cd  "C:\Users\USER\ecommerce-dashboard\routes"
+  213  nano recommendations.js
+  214  nano recommendations.js
+  215  cd "C:\Users\USER\ecommerce-dashboard\models"
+  216  curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@"C:\Users\USER\ecommerce-dashboard\models"/product.json"
+  217  curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@"C:\Users\USER\ecommerce-dashboard\models"\product.json"
+  218  "C:\Users\USER\ecommerce-dashboard\models\product.js"
+  219  $ curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@"C:\Users\USER\ecommerce-dashboard\models"\product.json"
+  220  curl: Failed to open C:UsersUSERecommerce-dashboardmodels\product.json
+  221  curl: option -d: error encountered when reading a file
+  222  curl: try 'curl --help' or 'curl --manual' for more information
+  223  USER@DESKTOP-O08E1Q1 MINGW64 ~/ecommerce-dashboard/models (master)
+  224  $ "C:\Users\USER\ecommerce-dashboard\models\product.js"
+  225  curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@C:\Users\USER\ecommerce-dashboard\models\product.js"
+  226  & "C:\Users\USER\curl\New folder\bin\curl.exe" -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@C:\Users\USER\ecommerce-dashboard\models\product.json"
+  227   curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@C:\Users\USER\ecommerce-dashboard\models\product.js"
+  228    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  229                                   Dload  Upload   Total   Spent    Left  Speed
+  230  <html lang="en">
+  231  <head>
+  232  <meta charset="utf-8">
+  233  <title>Error</title>
+  234  </head>
+  235  <body>
+  236  <pre>SyntaxError: Unexpected token &#39;c&#39;, &quot;const mong&quot;... is not valid JSON<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at createStrictSyntaxError (C:\Users\USER\node_modules\body-parser\lib\types\json.js:169:10)<br> &nbsp; &nbsp;at parse (C:\Users\USER\node_modules\body-parser\lib\types\json.js:86:15)<br> &nbsp; &nbsp;at C:\Users\USER\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_
+  237  curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@C:/Users/USER/Desktop/product.json"
+  238  curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@C:\Users\USER\ecommerce-dashboard\models\product.json"
+  239  curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@C:\Users\USER\ecommerce-dashboard\models\product.js" 
+  240  nano product.json
+  241  nano product.js
+  242  nano product.js
+  243  nano product.json
+  244  nano product.json
+  245   curl -X POST "http://localhost:5000/products" -H "Content-Type: application/json" -d "@C:\Users\USER\ecommerce-dashboard\models\product.json"
+  246   cd "C:\Users\USER\ecommerce-dashboard\routes"
+  247  nano recommendations.js
+  248  git clone https://github.com/adisar6402/introduction-to-css-adisar6402.git
+  249  git clone https://github.com/adisar6402/introduction-to-css-adisar6402.git
+  250  git clone https://github.com/adisar6402/introduction-to-css-adisar6402.git
+  251  git remote -v
+  252  cd https://github.com/PLP-WebTechnologies/introduction-to-css-adisar6402
+  253  cd [200~"C:\Users\USER\HTML_Project"~
+  254  "C:\Users\USER\introduction-to-css-adisar6402"
+  255  cd "C:\Users\USER\introduction-to-css-adisar6402"
+  256  exit
+  257  git clone https://github.com/adisar6402/rahman-basic-html-template.git
+  258  cd rahman-basic-html-template
+  259  git checkout -b assignment-branch
+  260  exit
+  261  cd "C:\Users\USER\HTML_Project"
+  262  git checkout -b assignment-branch
+  263  nano index.html
+  264  nano index.html
+  265  dir
+  266  nano myphoto.jpg
+  267  git myphoto.jpg
+  268  git commit -m "Add index.html file to root directory
+  269  c22f]\]\]\]\\2
+  270  git checkout main
+  271  git status
+  272  git checkout assignment branch
+  273  git checkout assignment-branch
+  274  git checkout assignment branch
+  275  git checkout assignment-branch
+  276  git check out maim
+  277  git check main \
+  278  git checkout main
+  279  git --version
+  280  git config --global user.name "adisar6402"
+  281  git config --global user.email "adisar6402@gmail.com"
+  282  nano index.html
+  283  nano vision.html
+  284  nano vision.html
+  285  nano vision html
+  286  nano index.html
+  287  nano xtrips index.html
+  288  nano index.html
+  289  nano index.html
+  290  nano index.html
+  291  nano index.html
+  292   exit
+  293  git clone https://github.com/PLPAcademy/day-3-assignment-adisar6402.git
+  294  cd day-3-assignment-adisar6402.git
+  295  cd day-3-assignment-adisar6402
+  296  git checkout -b assignment-branch
+  297  nano README.md
+  298  git add README.md
+  299  git commit -m "Add answers for day-3-assignment
+  300  git commit -m "Add answers for day-3-assignment"
+  301  git push origin assignment-branch 
+  302  git checkout main
+  303  git pull origin main
+  304  git merge assignment-branch
+  305  git push origin main
+  306  cd "C:\Users\USER\day-3-assignment-adisar6402"
+  307  nano README.md
+  308  git add README.md
+  309  git commit -m "Updated answers in README.md for autograding"
+  310  git push origin main  # Adjust if your branch name is different
+  311  nano README.md
+  312  git add README.md
+  313  git commit -m "Updated quiz answers for autograding"
+  314  git push origin main
+  315  nano README.md
+  316  git add .
+  317  git commit -m "Updated answers for autograding"
+  318  git push origin main  # Replace 'main' with your branch name if different
+  319  nano classroom.yml
+  320  git add .github/workflows/classroom.yml
+  321  git add .github/workflows/classroom.yml
+  322  git commit -m "Update autograding tests workflow"
+  323  git push origin main
+  324  git pull origin main
+  325  git status
+  326  git push origin main
+  327  nano README.md
+  328  git add README.md
+  329  git commit -m "Update README.md for clarity"
+  330  git push origin main
+  331  history
+  332  history > commands.txt
+  333  ls
+  334  cat commands.txt
+  335  ls
+  336  git clone https://github.com/BlaqueDevs/se-assignment-day-4-software-project-management-adisar6402.git
+  337  cd /se-assignment-day-4-software-project-management-adisar6402
+  338  cd se-assignment-day-4-software-project-management-adisar6402
+  339  git checkout -b assignment-branch
+  340  nano README.md
+  341  nano README.md
+  342  git commit -m "Add answers for SE-Assignment-Day-4-Software-Project-Management"
+  343  git add README.md
+  344   git commit -m "Add answers for SE-Assignment-Day-4-Software-Project-Management"
+  345  git checkout main
+  346  git pull origin main
+  347  git merge assignment-branch
+  348  git push origin main
+  349  git branch -d assignment-branch
+  350  git push origin --delete assignment-branch
+  351  history
+  352  history>commands.txt
+  353  ls
+  354  cat commands.txt
+  355  git clone https://github.com/BlaqueDevs/se-assignment-day-5-technical-writing-and-review-adisar6402.git
+  356  cd se-assignment-day-5-technical-writing-and-review-adisar6402
+  357  git checkout -b assignment-branch
+  358  nano README.md
+  359  git add README.md
+  360  git commit -m "Add answers for SE-Assignment-day-5-technical-writing-and-review"
+  361  git push origin assignment-branch
+  362  git checkout main
+  363  git pull origin main
+  364  git merge assignment-branch
+  365  git push origin main
+  366  git branch -d assignment-branch
+  367  git push origin --delete assignment-branch
+  368  nano README.md
+  369  cd "C:\Users\USER\advanced-css-adisar6402"
+  370  ls
+  371  cd responsive-telemedicine-app-layout
+  372  nano index.html
+  373  nano styles.css
+  374  nano index.html
+  375  nano styles.css
+  376  nano scripts.js
+  377  nano sidebar,html
+  378  nano sidebar.html
+  379  nano styles.css
+  380  nano scripts.js
+  381  nano index.html
+  382  cd "C:\Users\USER\advanced-css-adisar6402\responsive-telemedicine-app-layout"
+  383  ls 
+  384  cd js 
+  385  exit
+  386  cd "C:\Users\USER\advanced-css-adisar6402\responsive-telemedicine-app-layout"
+  387  ls
+  388  nano index.html
+  389  nano styles.css
+  390  git add .
+  391  cd "C:\Users\USER\advanced-css-adisar6402"
+  392  ls
+  393  cd 
+  394  cd responsive-telemedicine-app-layout/
+  395  cd responsive-telemedicine-app-layout
+  396  cd "C:\Users\USER\advanced-css-adisar6402"
+  397  ls
+  398  resonsive-telemedicine-app-layout
+  399  git checkout development
+  400  cd "C:\Users\USER\advanced-css-adisar6402"
+  401  ls
+  402  cd responsive-telemedicine-app-layout
+  403  pwd
+  404  ls
+  405  git add .
+  406  git commit -m "Initial commit"
+  407  git push -u origin development
+  408  git status
+  409  git add privacy-policy.html
+  410  pwd
+  411  ls
+  412  cd responsive-telemedicine-app-layout
+  413  git add privacy-policy.html
+  414  ls
+  415  git add privacy-policy.html
+  416  git commit -m "Add privacy-policy.html"
+  417  git push origin development
+  418  git push origin development
+  419  history
+  420  history> commands.txt
